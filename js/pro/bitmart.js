@@ -30,7 +30,7 @@ module.exports = class bitmart extends bitmartRest {
             'options': {
                 'defaultType': 'spot',
                 'watchOrderBook': {
-                    'depth': 'depth5', // depth5, depth400
+                    'depth': 'depth20', // depth5, depth400
                 },
                 'ws': {
                     'inflate': true,
